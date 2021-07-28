@@ -3,8 +3,6 @@ name: build-release
 on:
   workflow_dispatch:
   push:
-    tags:
-    - '*'
 
 jobs:
   release_policy:
