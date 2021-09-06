@@ -6,5 +6,5 @@ allowed {
     caller = input.user
 
     some i
-    caller.attributes.properties.levels[i] == "admin"
+    caller.attributes.properties.levels[i] == "user"
 }
