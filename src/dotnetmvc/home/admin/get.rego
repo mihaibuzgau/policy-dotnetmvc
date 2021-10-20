@@ -4,7 +4,8 @@ default allowed = false
 
 allowed {
     caller = input.user
+    allowed_rolles := {"admin", "user"}
 
     some i
-    caller.attributes.properties.levels[i] == "admin"
+    allowed_rolles[caller.attributes.properties.levels[i]]
 }
