@@ -3,9 +3,9 @@ package dotnetmvc.GET.home.admin
 default allowed = false
 
 allowed {
-    caller = input.user
+    c = input.user
     allowed_rolles := {"admin"}
 
     some i
-    allowed_rolles[caller.attributes.properties.levels[i]]
+    allowed_rolles[c.attributes.properties.levels[i]]
 }
