@@ -4,8 +4,8 @@ default allowed = false
 
 allowed {
     c = input.user
-    allowed_rolles := {"admin", "superuser"}
+    allowed_roles := {"admin", "superuser"}
 
     some i
-    allowed_rolles[c.attributes.properties.levels[i]]
+    allowed_roles[c.attributes.properties.levels[i]]
 }
