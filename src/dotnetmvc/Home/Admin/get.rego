@@ -1,4 +1,4 @@
-package dotnetmvc.GET.home.admin
+package dotnetmvc.GET.Home.Admin
 
 default allowed = false
 

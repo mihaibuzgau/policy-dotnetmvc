@@ -1,4 +1,4 @@
-package dotnetmvc.GET.home.profile
+package dotnetmvc.GET.Home.Profile
 
 default allowed = false
 
